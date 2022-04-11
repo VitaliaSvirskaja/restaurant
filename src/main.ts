@@ -29,3 +29,5 @@ contactButton?.addEventListener("click", () => {
   contentContainer!.innerHTML = "";
   addContactContent();
 });
+
+//TODO: Zustand der Application (3 verschiedene Zustände möglich) setzen, damit ich die Buttons entsprechend hervorheben kann
