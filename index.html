@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
     <title>Sushi Shisu</title>
-  </head>
-  <body>
-    <div class="content-container">
-      <header>
+</head>
+<body>
+<div class="content-container">
+    <header>
         <h1 class="logo">Sushi Shisu</h1>
         <div>
-          <button class="homeBtn">Home</button>
-          <button class="menuBtn">Menu</button>
-          <button class="contactBtn">Contact</button>
+            <button class="homeBtn">Home</button>
+            <button class="menuBtn">Menu</button>
+            <button class="contactBtn">Contact</button>
         </div>
-      </header>
-      <div id=content>
-
-      </div>
+    </header>
+    <div id=content>
     </div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+</div>
+
+<template id="homeContent">
+    <p>Best traditional sushi in your country.</p>
+    <p>Every single sushi roll is prepared by our Japanese chef in the traditional way with
+        a lot of precision and love.</p>
+    <p>Founded and managed by the Shisu family since 1920.</p>
+    <div class="opening-hours">
+        <h3>Opening hours</h3>
+        <p>Monday: 11am - 10pm</p>
+        <p>Tuesday: 11am - 10pm</p>
+        <p>Wednesday: 11am - 10pm</p>
+        <p>Thursday: 11am - 10pm</p>
+        <p>Friday: 11am - 10pm</p>
+        <p>Saturday: 11am - 10pm</p>
+        <p>Sunday: 11am - 10pm</p>
+    </div>
+</template>
+
+
+<template id="menuContent">
+    <p>Test</p>
+</template>
+
+<template id="contactContent">
+    <p>Call me maybe!</p>
+</template>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
 </html>
