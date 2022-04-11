@@ -1,15 +1,15 @@
 import "./style.css";
-import {
-  addContactContent,
-  addHomeContent,
-  addMenuContent,
-} from "./homepageRestaurant";
+import "./menuStyles.css";
+import { addHomeContent } from "./homepageRestaurant";
+import { addMenuContent } from "./menuRestaurant";
+import { addContactContent } from "./contactRestaurant";
 
 const contentContainer = document.querySelector("#content");
 
 function initPage() {
   addHomeContent();
 }
+
 initPage();
 
 const homeButton = document.querySelector(".homeBtn");
